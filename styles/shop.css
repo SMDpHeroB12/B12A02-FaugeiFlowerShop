@@ -199,7 +199,7 @@ body {
 
 /* Join Section Styles */
 .join-section {
-  background-image: url(/assets/news-letter-bg.png);
+  background-image: url("../assets/news-letter-bg.png");
   background-repeat: no-repeat;
   background-position: center;
   width: 1440px;
