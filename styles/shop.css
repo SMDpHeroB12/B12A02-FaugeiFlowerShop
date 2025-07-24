@@ -1,0 +1,111 @@
+.noto-serif-normal {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+body {
+  background-color: #f6f8ff;
+}
+
+/* Shared Styles */
+.container {
+  width: 1140px;
+  margin: 30px auto;
+}
+.display-flex {
+  display: flex;
+}
+.active {
+  font-weight: 700;
+}
+.dark-1 {
+  color: #252432;
+}
+.dark-2 {
+  color: #8987a1;
+}
+.orange {
+  color: #e95a08;
+}
+.head-text {
+  font-family: "Noto Serif";
+}
+/* Nav Styles */
+
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links {
+}
+
+.nav-item {
+  list-style: none;
+  margin-right: 50px;
+}
+.cart {
+  margin: 0;
+}
+.nav-link {
+  text-decoration: none;
+  font-size: 1.25em;
+}
+
+/* Banner Styles */
+.banner-section {
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 460px;
+  margin-top: 90px;
+}
+.banner-texts {
+  width: 50%;
+}
+.banner-title {
+  font-size: 4em;
+  margin: 0;
+}
+.banner-description {
+  font-size: 1.25rem;
+}
+.banner-image {
+  width: 50%;
+}
+.banner-image img {
+  width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+  .navbar .menu {
+    display: none;
+  }
+  .cart {
+    margin-top: 25px;
+    font-size: 1.25rem;
+  }
+  .banner-section {
+    flex-direction: column-reverse;
+    margin-top: 250px;
+  }
+  .container {
+    width: 100%;
+  }
+  .banner-texts {
+    margin-top: 25px;
+    width: 100%;
+  }
+  .banner-title {
+    font-size: 2rem;
+    margin: 0;
+  }
+  .banner-image {
+    width: 100%;
+  }
+}
